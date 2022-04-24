@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cálculo de Massa Corporal</title>
+		
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Cálculo de Massa Corporal</h1>
+		</header>
+		
+		<section>
+			<form name="formulario">
+				<fieldset>
+					<legend>Formulário</legend>
+					<label for="altura">Altura: </label></br>
+					<input type="text" id="altura" name="altura"></br>
+					
+					<label for="peso">Peso: </label></br>
+					<input type="text" id="peso" name="peso"></br>
+					
+					<button id="calcular">Calcular</button>
+					<button id="limpar">Limpar</button>
+				</fieldset>
+			</form>
+		</section>
+		
+		<section>
+			<label>Resultado: </label>
+			<div id="resultado"></div>
+		</section>
+		
+		<section>
+			<fieldset>
+				<legend>Tabela IMC</legend>
+				<table cellspacing="0">
+					<tr>
+						<th>Condição</th><th>Mulheres</th><th>Homens</th>
+					</tr>
+					<tr>
+						<td>Abaixo do peso</td><td> < 19,1 </td><td> < 20,7 </td>
+					</tr>
+					<tr>
+						<td>normal</td><td> 19,1 < > 25,8 </td><td> 20,7 < > 26,4 </td>
+					</tr>
+					<tr>
+						<td>Pouco acima</td><td> 25,9 < > 27,3 </td><td> 26,5 < > 27,8 </td>
+					</tr>
+					<tr>
+						<td>Acima do peso</td><td> 27,4 < > 32,3 </td><td> 27,9 < > 31,1 </td>
+					</tr>
+					<tr>
+						<td>Obeso</td><td> > 32,3 </td><td> > 31,1 </td>
+					</tr>
+				</table>
+			</fieldset>
+		</section>
+	<script src="./script.js">
+	</script>
+	</body>
+</html>
