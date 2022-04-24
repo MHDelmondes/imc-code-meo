@@ -1,0 +1,32 @@
+body{
+	margin: auto;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	background-color: blueviolet;
+	color: cornsilk;
+}
+
+section{
+	margin-top: 1%;
+	display: flex;
+	justify-content: center;
+}
+
+fieldset{
+	width: 30%;
+	border-radius: 5px;
+}
+
+input{
+	border-radius: 5px;
+}
+
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-radius: 5px;
+	font-size: medium;
+}
